@@ -1,11 +1,11 @@
 # Create a Transaction-Backed Legal Record
 
 This guide creates a numbered legal docket that the
-[Main Viewer](https://beacnpool.github.io/ledger-scrolls/) can discover from a
+[Main Viewer](https://beacnlabs.github.io/ledger-scrolls/) can discover from a
 policy ID — paste the docket policy into the reader bar, or open
-`https://beacnpool.github.io/ledger-scrolls/#p=<POLICY_ID>` directly. The live
+`https://beacnlabs.github.io/ledger-scrolls/#p=<POLICY_ID>` directly. The live
 example record opens at
-[`#s=legal-0001`](https://beacnpool.github.io/ledger-scrolls/#s=legal-0001).
+[`#s=legal-0001`](https://beacnlabs.github.io/ledger-scrolls/#s=legal-0001).
 
 The design has two layers:
 
@@ -252,7 +252,7 @@ printf '%s  expected\n' "$DECODED_SHA"
 Then open the docket policy in the public reader:
 
 ```text
-https://beacnpool.github.io/ledger-scrolls/#p=<POLICY_ID>
+https://beacnlabs.github.io/ledger-scrolls/#p=<POLICY_ID>
 ```
 
 Confirm that it reports the expected:

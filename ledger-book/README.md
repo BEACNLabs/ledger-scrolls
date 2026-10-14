@@ -25,7 +25,7 @@ Read for free without a wallet. Publishing and guest entries require a wallet
 transaction. Content is public, and access depends on Cardano and retained history.
 A paid entry does not make spam impossible or its contents true.
 
-[Open the app](https://beacnpool.github.io/ledger-scrolls/ledger-book.html) ·
+[Open the app](https://beacnlabs.github.io/ledger-scrolls/ledger-book.html) ·
 [Product and trust model](../docs/PRODUCT.md) ·
 [Validation](../docs/UNIFIED_VALIDATION.md)
 

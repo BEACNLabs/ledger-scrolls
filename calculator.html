@@ -16,13 +16,13 @@
 <link rel="icon" type="image/svg+xml" href="./brand/scrolls-mark.svg">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="apple-touch-icon" href="./brand/scrolls-mark.svg">
-<link rel="canonical" href="https://beacnpool.github.io/ledger-scrolls/calculator.html">
-<meta property="og:url" content="https://beacnpool.github.io/ledger-scrolls/calculator.html">
-<meta property="og:image" content="https://beacnpool.github.io/ledger-scrolls/media/og-card.png">
+<link rel="canonical" href="https://beacnlabs.github.io/ledger-scrolls/calculator.html">
+<meta property="og:url" content="https://beacnlabs.github.io/ledger-scrolls/calculator.html">
+<meta property="og:image" content="https://beacnlabs.github.io/ledger-scrolls/media/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://beacnpool.github.io/ledger-scrolls/media/og-card.png">
+<meta name="twitter:image" content="https://beacnlabs.github.io/ledger-scrolls/media/og-card.png">
 <style>
 /* NIGHT LEDGER — dark theme derived from the LS registry mark.
    Deep-space navy field · constellation of orbital nodes · one amber dissent.
@@ -652,7 +652,7 @@ body[data-page="media"] .hero .eyebrow{background:none;border:0;padding:0;font-s
     <a href="./media.html" data-nav="media" >Guide</a>
   </nav>
 </header>
-<div class="ls-archived" role="note" style="background:#2a1d05;color:#ffd58a;border-bottom:1px solid #6b4a0e;padding:9px 16px;font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center"><strong>Archived &middot; September 2026.</strong> Development has paused and BEACN&rsquo;s Koios mirror is offline. Every scroll is still readable <a href="https://github.com/BEACNpool/ledger-scrolls#read-the-scrolls-today" style="color:#ffe7b3">from a terminal through public Koios</a> or <a href="https://beacnpool.github.io/ABCDE/pool/#library" style="color:#ffe7b3">in the BEACN archive</a>.</div>
+<div class="ls-archived" role="note" style="background:#2a1d05;color:#ffd58a;border-bottom:1px solid #6b4a0e;padding:9px 16px;font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center"><strong>Archived &middot; September 2026.</strong> Development has paused and BEACN&rsquo;s Koios mirror is offline. Every scroll is still readable <a href="https://github.com/BEACNLabs/ledger-scrolls#read-the-scrolls-today" style="color:#ffe7b3">from a terminal through public Koios</a> or <a href="https://beacnlabs.github.io/ABCDE/pool/#library" style="color:#ffe7b3">in the BEACN archive</a>.</div>
 <!-- LS:NAV end -->
 <div class="bg-grid" aria-hidden="true"></div>
 
@@ -869,7 +869,7 @@ body[data-page="media"] .hero .eyebrow{background:none;border:0;padding:0;font-s
     deterministic gzip (<code>gzip -n -9</code>), which may differ by a few bytes.</p>
     <p>Reference points from live scrolls: the on-chain tutorial (18 KB HTML → 7.4 KB gzip)
     cost ~0.9 ADA in fees + ~1.6 ADA locked. Full protocol details:
-    <a href="https://github.com/BEACNpool/ledger-scrolls/tree/main/registry/spec">the specs</a>.</p>
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/tree/main/registry/spec">the specs</a>.</p>
   </details>
 </section>
 
@@ -899,12 +899,12 @@ body[data-page="media"] .hero .eyebrow{background:none;border:0;padding:0;font-s
     <p style="font-size:13.5px;color:var(--muted);margin-top:6px">For two-party agreements: mint the terms as the scroll, then <b>each party</b>
     sends any small self-send from their own wallet with this JSON in the metadata box (change <code>r</code> per party) —
     an on-chain countersignature of the exact bytes, timestamped forever. Keep the tx hash; that <i>is</i> your receipt.
-    Spec: <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/registry/spec/countersigned-scroll-v1.md">countersigned-scroll-v1</a>.</p></div>
+    Spec: <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/registry/spec/countersigned-scroll-v1.md">countersigned-scroll-v1</a>.</p></div>
 
     <div class="warnbox">⚠️ <strong>Before you mint:</strong> permanent means permanent — no
     edit, no delete, no takedown. Strip EXIF/document metadata, keep the file self-contained,
     rehearse on testnet, and verify the reconstruction hash before announcing.
-    Read <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/docs/YOUR_FIRST_SCROLL.md">Your First Scroll</a>.</div>
+    Read <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/docs/YOUR_FIRST_SCROLL.md">Your First Scroll</a>.</div>
     </details>
   </div>
 </section>
@@ -2215,7 +2215,7 @@ function renderMint(){
           <p style="margin-top:8px"><button class="btn sub" id="cpstart">Send pages manually (copy-paste metadata)</button>
           <span style="font-size:12.5px;color:var(--muted)"> — advanced; Eternl Send metadata is awkward for this.</span></p>
           <p style="font-size:12.5px;color:var(--muted);margin-top:8px">Or download the build bundle above and mint with the
-          <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/docs/YOUR_FIRST_SCROLL.md">CLI toolkit</a>.</p>
+          <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/docs/YOUR_FIRST_SCROLL.md">CLI toolkit</a>.</p>
         </details>`
       : `<div class="warnbox" style="margin-top:12px"><b>Eternl not detected here.</b>
         ${isMobileUA()
@@ -2336,7 +2336,7 @@ function bundleReadme(plan){
    +"CONTENT: "+plan.contentType+", codec "+plan.codec+", "+plan.sizeDecoded+" bytes -> "+plan.sizeEncoded+" on-chain, "+plan.pages+" page(s)\n"
    +"SHA-256 (decoded — what a reader verifies): "+plan.sha256Decoded+"\n\n"
    +"MINT IT (needs the repo tooling, a funded payment key, and a synced node socket):\n"
-   +"  git clone https://github.com/BEACNpool/ledger-scrolls && cd ledger-scrolls\n"
+   +"  git clone https://github.com/BEACNLabs/ledger-scrolls && cd ledger-scrolls\n"
    +"  # put this bundle's files in a folder, e.g. build/\n"
    +"  tools/lschain/mint.sh build/ payment.skey payment.addr\n"
    +"  # -> mints every page, builds + locks the manifest, writes receipts.json with your pointer\n\n"
@@ -2344,7 +2344,7 @@ function bundleReadme(plan){
    +"  cd koios-viewer\n"
    +"  python3 -m lsview reconstruct-chain --txin <MANIFEST_TX>#0 --out check.out\n"
    +"  sha256sum check.out   # must equal "+plan.sha256Decoded+"\n\n"
-   +"Guide: https://github.com/BEACNpool/ledger-scrolls/blob/main/docs/YOUR_FIRST_SCROLL.md\n"
+   +"Guide: https://github.com/BEACNLabs/ledger-scrolls/blob/main/docs/YOUR_FIRST_SCROLL.md\n"
    +"A library that cannot burn.\n";
 }
 async function buildBundle(){
@@ -2474,7 +2474,7 @@ DO THIS, IN ORDER  (repeat for every page-XX file)
   6. Do the next page. Then the next. Until all ${n} are done.
 
 FINISH IT — turn the pages into a real scroll
-  7. Go to:  https://beacnpool.github.io/ledger-scrolls/calculator.html
+  7. Go to:  https://beacnlabs.github.io/ledger-scrolls/calculator.html
      Drop in the SAME file. Choose "Build my page transactions".
      Paste each transaction id into its box. Press "Check pages on-chain".
      When every page is GREEN, press "Lock the manifest" and approve the
@@ -3425,7 +3425,7 @@ function mintSuccess(unverified){
   const blob=new Blob([JSON.stringify(receipts,null,2)],{type:"application/json"});
   const url=URL.createObjectURL(blob);
   const absReader = M.net===1
-    ? `https://beacnpool.github.io/ledger-scrolls/index.html#open=${M.txid}`
+    ? `https://beacnlabs.github.io/ledger-scrolls/index.html#open=${M.txid}`
     : "";
   const readerUrl = M.net===1 ? `./index.html#open=${M.txid}` : "";
   const tweet = "https://twitter.com/intent/tweet?text="+encodeURIComponent(
@@ -3621,7 +3621,7 @@ function renderVault(){
     box.hidden=false;
     box.innerHTML=`<canvas id="vc-${i}" width="720" height="420"></canvas>
       <p style="margin-top:8px"><button class="btn sub" type="button" id="vcdn-${i}">⬇ PNG</button></p>`;
-    const abs=r.networkId===0?"":`https://beacnpool.github.io/ledger-scrolls/index.html#open=${r.pointer?.txHash}`;
+    const abs=r.networkId===0?"":`https://beacnlabs.github.io/ledger-scrolls/index.html#open=${r.pointer?.txHash}`;
     drawShareCard(r, abs||r.lockTxIn, $(`vc-${i}`));
     $(`vcdn-${i}`)?.addEventListener("click",()=>{
       const c=$(`vc-${i}`); const a=document.createElement("a");
@@ -3930,13 +3930,13 @@ $('clear-draft').onclick=()=>{invalidatePreparedDraft();try{localStorage.removeI
       <div class="ls-foot-col">
         <h4>Project</h4>
         <a href="./docs/PRODUCT.md">Product &amp; trust model</a>
-        <a href="https://github.com/BEACNpool/ledger-scrolls">Source &amp; specs</a>
+        <a href="https://github.com/BEACNLabs/ledger-scrolls">Source &amp; specs</a>
         <a href="./media.html">How it works</a>
       </div>
     </nav>
   </div>
   <div class="ls-foot-legal">
-    <a class="ls-foot-beacn" href="https://beacnpool.github.io/ABCDE/pool/" aria-label="BEACNpool legacy archive">
+    <a class="ls-foot-beacn" href="https://beacnlabs.github.io/ABCDE/pool/" aria-label="BEACNpool legacy archive">
       <img src="./brand/beacn-20260904.png" width="40" height="40" alt="" loading="lazy" decoding="async">
       <span>Maintained by BEACN</span>
     </a>

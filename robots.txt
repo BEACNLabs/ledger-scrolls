@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://beacnpool.github.io/ledger-scrolls/sitemap.xml
+Sitemap: https://beacnlabs.github.io/ledger-scrolls/sitemap.xml

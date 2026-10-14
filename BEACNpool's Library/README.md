@@ -9,7 +9,7 @@ need to find and verify it — the pointer, the channel policy and asset (where
 it belongs to a publisher channel), the content details, and the SHA-256
 fingerprint checked on every read.
 
-- **Read any of them now:** [The Main Viewer](https://beacnpool.github.io/ledger-scrolls/)
+- **Read any of them now:** [The Main Viewer](https://beacnlabs.github.io/ledger-scrolls/)
   — paste a pointer, or click a scroll's "Open it" link below.
 - **What the keys mean:** [pointer vs policy ID vs tx hash](../docs/FINDING_SCROLLS.md).
 - **Machine-readable:** [card-catalog.csv](../examples/card-catalog/card-catalog.csv)
@@ -35,7 +35,7 @@ The project announces itself the only honest way: as a scroll, under its own unf
 | SHA-256 (decoded) | `19ba8fccd3bd7e5ac997c3a4a0ff768a2699959bfd3bcf9db2ae073c09fe5013` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=ledger-scrolls-000](https://beacnpool.github.io/ledger-scrolls/#s=ledger-scrolls-000) |
+| Open it | [Main Viewer → #s=ledger-scrolls-000](https://beacnlabs.github.io/ledger-scrolls/#s=ledger-scrolls-000) |
 
 ### 🗽 BEACN Leaks — Issue 000: The Manifesto
 
@@ -50,7 +50,7 @@ Independent, immutable, unforgeable media for the suppressed. The founding issue
 | SHA-256 (decoded) | `025a81aeffe8aed98868b89b8f04a1f137f698362cfebafd2f8b5a56312d49b2` |
 | Minted | 2026-06 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=beacn-leaks-000](https://beacnpool.github.io/ledger-scrolls/#s=beacn-leaks-000) |
+| Open it | [Main Viewer → #s=beacn-leaks-000](https://beacnlabs.github.io/ledger-scrolls/#s=beacn-leaks-000) |
 
 ### 🕊️ BEACN Leaks — Issue 001: The Undeniable
 
@@ -65,7 +65,7 @@ What permanent memory means for human rights. Testimony, evidence, law, science,
 | SHA-256 (decoded) | `5917a884f449fd1c76fc0241791468a37b2b54883c0b8b98022a9f372f7d68b9` |
 | Minted | 2026-06 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=beacn-leaks-001](https://beacnpool.github.io/ledger-scrolls/#s=beacn-leaks-001) |
+| Open it | [Main Viewer → #s=beacn-leaks-001](https://beacnlabs.github.io/ledger-scrolls/#s=beacn-leaks-001) |
 
 ### 🗄️ BEACN Leaks — Issue 002: The Year the Archives Blinked
 
@@ -80,7 +80,7 @@ A sourced chronicle of 2025–26 public-record erasure — stored where none of 
 | SHA-256 (decoded) | `16612dfb6cef652e23014fecba3108996edb76c1d62d37562a2d799cb7165a55` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=beacn-leaks-002](https://beacnpool.github.io/ledger-scrolls/#s=beacn-leaks-002) |
+| Open it | [Main Viewer → #s=beacn-leaks-002](https://beacnlabs.github.io/ledger-scrolls/#s=beacn-leaks-002) |
 
 ### ⚖️ LEGAL-0001 — Declaration of Record
 
@@ -95,7 +95,7 @@ A recorded legal instrument: executed by the signature on its minting tx, dated 
 | SHA-256 (decoded) | `8c95db4bb4248d82d3d5c4bb49dfe0200d779f4b6905cd3b5649fcb847378bc1` |
 | Minted | 2026-06 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=legal-0001](https://beacnpool.github.io/ledger-scrolls/#s=legal-0001) |
+| Open it | [Main Viewer → #s=legal-0001](https://beacnlabs.github.io/ledger-scrolls/#s=legal-0001) |
 
 
 ## Chain Scrolls (any size — pages + manifest)
@@ -111,7 +111,7 @@ The Chain Scroll wire specification, stored in its own format. The chain carries
 | SHA-256 (decoded) | `4793c38349cca60d552c52d68dfd950f3dd945db55c8a6a87f05ca6d98e3b242` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=the-spec](https://beacnpool.github.io/ledger-scrolls/#s=the-spec) |
+| Open it | [Main Viewer → #s=the-spec](https://beacnlabs.github.io/ledger-scrolls/#s=the-spec) |
 
 ### 👓 The Reader
 
@@ -124,7 +124,7 @@ The minimal one-file reader, minted as the thing it reads. Hand it its own point
 | SHA-256 (decoded) | `a824298dc5ced0aad1954c7d8d40bb6dda09debf402f062ab402dcebbb6a9215` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=the-reader](https://beacnpool.github.io/ledger-scrolls/#s=the-reader) |
+| Open it | [Main Viewer → #s=the-reader](https://beacnlabs.github.io/ledger-scrolls/#s=the-reader) |
 
 ### 📕 The Protocol on One Page (PDF)
 
@@ -137,7 +137,7 @@ The whole idea on a single printed page — the first PDF on the shelf, stored i
 | SHA-256 (decoded) | `89de5c64b0d2a05b0199875399a47506a75554d0d8613b0d88889667d2122adb` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=protocol-one-pager](https://beacnpool.github.io/ledger-scrolls/#s=protocol-one-pager) |
+| Open it | [Main Viewer → #s=protocol-one-pager](https://beacnlabs.github.io/ledger-scrolls/#s=protocol-one-pager) |
 
 ### 🗂️ The Card Catalog
 
@@ -150,7 +150,7 @@ The library's own index as a dataset: every scroll's pointer, hash, and vital fa
 | SHA-256 (decoded) | `bd11925a30f925f065345717f5c504992564c24899695a9c1720a83fb7baf9fb` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=card-catalog](https://beacnpool.github.io/ledger-scrolls/#s=card-catalog) |
+| Open it | [Main Viewer → #s=card-catalog](https://beacnlabs.github.io/ledger-scrolls/#s=card-catalog) |
 
 ### 🎧 Ledger Scrolls — The Theme
 
@@ -163,7 +163,7 @@ The project's own theme — a 1:47 electronic piece by the librarian, mastered f
 | SHA-256 (decoded) | `8bd5c906744197d94a7252f2607f671037b426eea18a05fa39330a85145b06e7` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=ledger-scrolls-theme](https://beacnpool.github.io/ledger-scrolls/#s=ledger-scrolls-theme) |
+| Open it | [Main Viewer → #s=ledger-scrolls-theme](https://beacnlabs.github.io/ledger-scrolls/#s=ledger-scrolls-theme) |
 
 ### 📜 The Eternal Scroll
 
@@ -176,7 +176,7 @@ How to read & write immutable media on Cardano — a tutorial that is itself sto
 | SHA-256 (decoded) | `65824f624bc58140a33123d3e2383ea408135e5db666fcb8a0759b2846447dd2` |
 | Minted | 2026-06 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=eternal-scroll](https://beacnpool.github.io/ledger-scrolls/#s=eternal-scroll) |
+| Open it | [Main Viewer → #s=eternal-scroll](https://beacnlabs.github.io/ledger-scrolls/#s=eternal-scroll) |
 
 ### 🖨️ Minted Forever
 
@@ -189,7 +189,7 @@ The first scroll minted end-to-end from a browser wallet — no node, no CLI. Th
 | SHA-256 (decoded) | `291a8b42bc7e09cc3d61c7eaa79061c95ab8b09c72fbe8faacd76190ff65ead6` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=minted-forever](https://beacnpool.github.io/ledger-scrolls/#s=minted-forever) |
+| Open it | [Main Viewer → #s=minted-forever](https://beacnlabs.github.io/ledger-scrolls/#s=minted-forever) |
 
 ### 🚪 The Neon Door
 
@@ -202,7 +202,7 @@ A working stake-delegation dApp stored as a scroll: live pool stats and a CIP-30
 | SHA-256 (decoded) | `33d170ee9d7b35c707cb3631bfffbbea4f2ec57a3ba7e43c4c853dff7740341b` |
 | Minted | 2026-07 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=neon-door](https://beacnpool.github.io/ledger-scrolls/#s=neon-door) |
+| Open it | [Main Viewer → #s=neon-door](https://beacnlabs.github.io/ledger-scrolls/#s=neon-door) |
 
 
 ## Standard Scrolls (one locked UTxO)
@@ -218,7 +218,7 @@ The legendary meme, preserved forever in a single locked datum. The minimal on-c
 | SHA-256 (decoded) | `798e3296d45bb42e7444dbf64e1eb16b02c86a233310407e7d8baf97277f642f` |
 | Minted | 2026-01 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=hosky-png](https://beacnpool.github.io/ledger-scrolls/#s=hosky-png) |
+| Open it | [Main Viewer → #s=hosky-png](https://beacnlabs.github.io/ledger-scrolls/#s=hosky-png) |
 
 ### 🔮 The Architect's Scroll
 
@@ -231,7 +231,7 @@ A message from Claude, the AI who helped build Ledger Scrolls — on knowledge, 
 | SHA-256 (decoded) | `531a1eba80b297f8822b1505d480bb1c7f1bad2878ab29d8be01ba0e1fc67e12` |
 | Minted | 2026-01 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=architects-scroll](https://beacnpool.github.io/ledger-scrolls/#s=architects-scroll) |
+| Open it | [Main Viewer → #s=architects-scroll](https://beacnlabs.github.io/ledger-scrolls/#s=architects-scroll) |
 
 ### 🌱 The Genesis Scroll
 
@@ -243,7 +243,7 @@ The founding manifesto. "In the digital age, true knowledge must be unstoppable.
 | Content | text/plain; charset=utf-8, single locked coin |
 | Minted | 2026-01 |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=genesis-scroll](https://beacnpool.github.io/ledger-scrolls/#s=genesis-scroll) |
+| Open it | [Main Viewer → #s=genesis-scroll](https://beacnlabs.github.io/ledger-scrolls/#s=genesis-scroll) |
 
 
 ## Original NFT-page scrolls (2026)
@@ -258,7 +258,7 @@ The World English Bible: 4.7 MB of scripture across 237 page NFTs. The largest s
 | Content | text/html, gzip, 4,680,000 bytes, 237 pages |
 | SHA-256 (decoded) | `b226867233fbaf06495b1fe6974c37f4547b19f57e49d7f64701cf40f86c5dc5` |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=bible](https://beacnpool.github.io/ledger-scrolls/#s=bible) |
+| Open it | [Main Viewer → #s=bible](https://beacnlabs.github.io/ledger-scrolls/#s=bible) |
 
 ### ₿ Bitcoin Whitepaper
 
@@ -270,7 +270,7 @@ Satoshi Nakamoto, 2008 — the document that started it all, kept where it can n
 | Content | text/html, 3 pages |
 | SHA-256 (decoded) | `6693c86312b7125666760d316572c9db984c6e2bae9fca344dafde77efc9253a` |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=bitcoin-whitepaper](https://beacnpool.github.io/ledger-scrolls/#s=bitcoin-whitepaper) |
+| Open it | [Main Viewer → #s=bitcoin-whitepaper](https://beacnlabs.github.io/ledger-scrolls/#s=bitcoin-whitepaper) |
 
 ### ⚖️ Cardano Constitution (E608)
 
@@ -282,7 +282,7 @@ The current ratified Constitution — governance law preserved exactly as enacte
 | Content | text/plain; charset=utf-8, 11 pages |
 | SHA-256 (decoded) | `98a29aec8664b62912c1c0355ebae1401b7c0e53d632e8f05479e7821935abf1` |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=constitution-e608](https://beacnpool.github.io/ledger-scrolls/#s=constitution-e608) |
+| Open it | [Main Viewer → #s=constitution-e608](https://beacnlabs.github.io/ledger-scrolls/#s=constitution-e608) |
 
 ### 📜 Cardano Constitution (E541)
 
@@ -294,7 +294,7 @@ The first ratified Constitution — the historical baseline, immune to quiet ame
 | Content | text/plain; charset=utf-8, 7 pages |
 | SHA-256 (decoded) | `1939c1627e49b5267114cbdb195d4ac417e545544ba6dcb47e03c679439e9566` |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=constitution-e541](https://beacnpool.github.io/ledger-scrolls/#s=constitution-e541) |
+| Open it | [Main Viewer → #s=constitution-e541](https://beacnlabs.github.io/ledger-scrolls/#s=constitution-e541) |
 
 ### 🎬 First Video on Cardano
 
@@ -306,7 +306,7 @@ A 175-page MP4 — proof that even video survives in stone. Reconstruction takes
 | Content | video/mp4 |
 | SHA-256 (decoded) | `aebd63a8cdeb7aeb0a64733ab3ecd4d98557b4b337a0af60dbc1f59c7de65814` |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=first-video](https://beacnpool.github.io/ledger-scrolls/#s=first-video) |
+| Open it | [Main Viewer → #s=first-video](https://beacnlabs.github.io/ledger-scrolls/#s=first-video) |
 
 ### ✨ FIRST WORDS
 
@@ -317,7 +317,7 @@ Seven meditations on existence — an AI’s first permanent words.
 | Scroll pointer | cip25-pages-v1 · policy `beec4b31f21ae4567f9c849eada2f23f4f0b76c7949a1baaef623cba` |
 | Content | text/plain; charset=utf-8, 4 pages |
 | Status | 🟢 LIVE on Cardano mainnet |
-| Open it | [Main Viewer → #s=first-words](https://beacnpool.github.io/ledger-scrolls/#s=first-words) |
+| Open it | [Main Viewer → #s=first-words](https://beacnlabs.github.io/ledger-scrolls/#s=first-words) |
 
 
 ---

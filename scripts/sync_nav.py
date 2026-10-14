@@ -129,7 +129,7 @@ def nav_html(P, page_id):
     <a href="{P}media.html" data-nav="media" {('aria-current="page"' if page_id == 'media' else '')}>Guide</a>
   </nav>
 </header>
-<div class="ls-archived" role="note" style="background:#2a1d05;color:#ffd58a;border-bottom:1px solid #6b4a0e;padding:9px 16px;font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center"><strong>Archived &middot; September 2026.</strong> Development has paused and BEACN&rsquo;s Koios mirror is offline. Every scroll is still readable <a href="https://github.com/BEACNpool/ledger-scrolls#read-the-scrolls-today" style="color:#ffe7b3">from a terminal through public Koios</a> or <a href="https://beacnpool.github.io/ABCDE/pool/#library" style="color:#ffe7b3">in the BEACN archive</a>.</div>
+<div class="ls-archived" role="note" style="background:#2a1d05;color:#ffd58a;border-bottom:1px solid #6b4a0e;padding:9px 16px;font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center"><strong>Archived &middot; September 2026.</strong> Development has paused and BEACN&rsquo;s Koios mirror is offline. Every scroll is still readable <a href="https://github.com/BEACNLabs/ledger-scrolls#read-the-scrolls-today" style="color:#ffe7b3">from a terminal through public Koios</a> or <a href="https://beacnlabs.github.io/ABCDE/pool/#library" style="color:#ffe7b3">in the BEACN archive</a>.</div>
 """ + NAV_END
 
 
@@ -166,13 +166,13 @@ def foot_html(P):
       <div class="ls-foot-col">
         <h4>Project</h4>
         <a href="{P}docs/PRODUCT.md">Product &amp; trust model</a>
-        <a href="https://github.com/BEACNpool/ledger-scrolls">Source &amp; specs</a>
+        <a href="https://github.com/BEACNLabs/ledger-scrolls">Source &amp; specs</a>
         <a href="{P}media.html">How it works</a>
       </div>
     </nav>
   </div>
   <div class="ls-foot-legal">
-    <a class="ls-foot-beacn" href="https://beacnpool.github.io/ABCDE/pool/" aria-label="BEACNpool legacy archive">
+    <a class="ls-foot-beacn" href="https://beacnlabs.github.io/ABCDE/pool/" aria-label="BEACNpool legacy archive">
       <img src="{P}brand/beacn-20260904.png" width="40" height="40" alt="" loading="lazy" decoding="async">
       <span>Maintained by BEACN</span>
     </a>

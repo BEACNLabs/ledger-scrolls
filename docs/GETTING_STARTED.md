@@ -37,7 +37,7 @@ This guide will help you set up everything you need to create your own permanent
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/BEACNpool/ledger-scrolls.git
+git clone https://github.com/BEACNLabs/ledger-scrolls.git
 cd ledger-scrolls
 ```
 

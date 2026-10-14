@@ -13,7 +13,7 @@ paste it.
 > it *proves* what you found.
 
 Everything below pastes into one place: the reader bar on
-**[the Main Viewer](https://beacnpool.github.io/ledger-scrolls/)**. It
+**[the Main Viewer](https://beacnlabs.github.io/ledger-scrolls/)**. It
 auto-detects which kind of key you gave it.
 
 ---
@@ -64,7 +64,7 @@ A **minting policy**. The reader tries three meanings, in order:
 
 - **Looks like:** `38fbd56d7de6eb9df88599b5b102304df4c817aee53e4fb9c59cbed2`
 - **Use it to:** open a library, follow a publisher, or rebuild a page-set.
-- **Also works in:** the [BEACN Leaks player](https://beacnpool.github.io/ledger-scrolls/leaks.html)
+- **Also works in:** the [BEACN Leaks player](https://beacnlabs.github.io/ledger-scrolls/leaks.html)
   (`leaks.html#policy=<id>`), and channel deep links `…/#p=<id>`.
 
 ## Registry NFT — `policy.ASSET`  ·  pins one catalog version

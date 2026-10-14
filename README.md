@@ -11,7 +11,7 @@ works from any terminal through the free public Koios API: no key, no account, n
 
 ```sh
 # 1. Get the lookup tool and the reader (about 1 MB; skips the films)
-git clone --depth 1 --filter=blob:none --sparse https://github.com/BEACNpool/ledger-scrolls
+git clone --depth 1 --filter=blob:none --sparse https://github.com/BEACNLabs/ledger-scrolls
 cd ledger-scrolls && git sparse-checkout set archive koios-viewer viewers registry
 
 # 2. Pick any scroll or BEACN mint from a menu
@@ -28,7 +28,7 @@ python3 archive/lookup.py get bible
 Every rebuilt scroll is checked against the SHA-256 recorded on chain. [`archive/README.md`](archive/README.md)
 explains the tool.
 
-**In a browser:** the [Library](https://beacnpool.github.io/ledger-scrolls/) still reads scrolls if you give it
+**In a browser:** the [Library](https://beacnlabs.github.io/ledger-scrolls/) still reads scrolls if you give it
 a Koios mirror of your own. Deploy [`tools/cors-mirror/worker.js`](tools/cors-mirror/) on a free Cloudflare
 account (about two minutes, no domain needed), then paste its URL under *Your trust anchors → Data source*.
 Ledger Chess, Mint a Scroll, Ledger Book and the Neon Door are wired to BEACN's retired mirror and no longer
@@ -36,7 +36,7 @@ reach the chain.
 
 **Everything preserved:** every scroll, readable in one click with an in-browser hash check, plus all of BEACN's
 on-chain art, its films and the rest of its code, lives in the
-[BEACN legacy archive](https://beacnpool.github.io/ABCDE/pool/).
+[BEACN legacy archive](https://beacnlabs.github.io/ABCDE/pool/).
 
 ---
 
@@ -60,11 +60,11 @@ a requirement of the other.
 
 | Product | Start here | Purpose |
 |---|---|---|
-| Ledger Scrolls | [Library](https://beacnpool.github.io/ledger-scrolls/index.html) | Read and check preserved originals |
-| Ledger Scrolls | [Preserve a file](https://beacnpool.github.io/ledger-scrolls/calculator.html) | Prepare locally, review cost, publish with a wallet |
-| Ledger Book | [Open a book](https://beacnpool.github.io/ledger-scrolls/ledger-book.html) | Find a book and read its entries |
-| Ledger Book | [Create a book](https://beacnpool.github.io/ledger-scrolls/ledger-book.html?create=1) | Personal book, project log, or event guestbook |
-| Both | [Guide](https://beacnpool.github.io/ledger-scrolls/media.html) | Independent uses, optional connection, costs and limits |
+| Ledger Scrolls | [Library](https://beacnlabs.github.io/ledger-scrolls/index.html) | Read and check preserved originals |
+| Ledger Scrolls | [Preserve a file](https://beacnlabs.github.io/ledger-scrolls/calculator.html) | Prepare locally, review cost, publish with a wallet |
+| Ledger Book | [Open a book](https://beacnlabs.github.io/ledger-scrolls/ledger-book.html) | Find a book and read its entries |
+| Ledger Book | [Create a book](https://beacnlabs.github.io/ledger-scrolls/ledger-book.html?create=1) | Personal book, project log, or event guestbook |
+| Both | [Guide](https://beacnlabs.github.io/ledger-scrolls/media.html) | Independent uses, optional connection, costs and limits |
 
 Existing mainnet Books, Scroll pointers, and public URLs remain compatible.
 The actual records live on-chain. Links, bookmarks and the app help find them;

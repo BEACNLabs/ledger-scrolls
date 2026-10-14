@@ -345,7 +345,7 @@ dated by block time, sealed by hash. Pull it by number in the Main Viewer
 ## 11) 🖨️ Minted Forever — the first browser-minted scroll
 
 The proof that the no-node path works: minted end-to-end from a browser
-wallet on the [Mint a Scroll](https://beacnpool.github.io/ledger-scrolls/calculator.html)
+wallet on the [Mint a Scroll](https://beacnlabs.github.io/ledger-scrolls/calculator.html)
 page, then reconstructed byte-identical. Pointer
 `e1c5ab582c2bda08d442848d42a7d01ed2197e234962b1ebe686af2c906af046#0` ·
 `text/html` · gzip · sha256

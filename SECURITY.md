@@ -116,7 +116,7 @@ If you discover a security vulnerability:
 
 1. **Do not** open a public issue
 2. **Open a private security advisory:**
-   <https://github.com/BEACNpool/ledger-scrolls/security/advisories/new>
+   <https://github.com/BEACNLabs/ledger-scrolls/security/advisories/new>
 3. **Include** detailed reproduction steps
 4. **Wait** for acknowledgment before disclosure
 

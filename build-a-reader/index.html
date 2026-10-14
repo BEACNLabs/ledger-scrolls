@@ -11,9 +11,9 @@
 <meta property="og:description" content="Two queries and a hash. Build a reader in an afternoon; prove it with the conformance suite.">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/svg+xml" href="../favicon.svg">
-<link rel="canonical" href="https://beacnpool.github.io/ledger-scrolls/build-a-reader/">
-<meta property="og:url" content="https://beacnpool.github.io/ledger-scrolls/build-a-reader/">
-<meta property="og:image" content="https://beacnpool.github.io/ledger-scrolls/media/og-card.png">
+<link rel="canonical" href="https://beacnlabs.github.io/ledger-scrolls/build-a-reader/">
+<meta property="og:url" content="https://beacnlabs.github.io/ledger-scrolls/build-a-reader/">
+<meta property="og:image" content="https://beacnlabs.github.io/ledger-scrolls/media/og-card.png">
 <meta name="twitter:card" content="summary_large_image">
 <style>
 /* NIGHT LEDGER — dark theme derived from the LS registry mark.
@@ -437,7 +437,7 @@ body[data-page="media"] .hero .eyebrow{background:none;border:0;padding:0;font-s
     <a href="../media.html" data-nav="media" >Guide</a>
   </nav>
 </header>
-<div class="ls-archived" role="note" style="background:#2a1d05;color:#ffd58a;border-bottom:1px solid #6b4a0e;padding:9px 16px;font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center"><strong>Archived &middot; September 2026.</strong> Development has paused and BEACN&rsquo;s Koios mirror is offline. Every scroll is still readable <a href="https://github.com/BEACNpool/ledger-scrolls#read-the-scrolls-today" style="color:#ffe7b3">from a terminal through public Koios</a> or <a href="https://beacnpool.github.io/ABCDE/pool/#library" style="color:#ffe7b3">in the BEACN archive</a>.</div>
+<div class="ls-archived" role="note" style="background:#2a1d05;color:#ffd58a;border-bottom:1px solid #6b4a0e;padding:9px 16px;font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center"><strong>Archived &middot; September 2026.</strong> Development has paused and BEACN&rsquo;s Koios mirror is offline. Every scroll is still readable <a href="https://github.com/BEACNLabs/ledger-scrolls#read-the-scrolls-today" style="color:#ffe7b3">from a terminal through public Koios</a> or <a href="https://beacnlabs.github.io/ABCDE/pool/#library" style="color:#ffe7b3">in the BEACN archive</a>.</div>
 <!-- LS:NAV end -->
 <div class="bg-grid" aria-hidden="true"></div>
 
@@ -493,8 +493,8 @@ curl -X POST https://api.koios.rest/api/v1/tx_metadata \
     <p style="font-size:14px;color:var(--muted);margin-top:10px">Segment encodings vary by indexer —
     accept <code>0x</code>-prefixed hex, bare hex, and <code>{"bytes":"…"}</code> objects. Byte
     strings over 64 bytes arrive as CBOR indefinite-length chunks; join them. Full normative rules:
-    <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/docs/PROTOCOL_V1_PROPOSAL.md">Protocol v1</a> ·
-    <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/registry/spec/manifest-chain-v2.md">chain-format spec</a>.</p>
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/docs/PROTOCOL_V1_PROPOSAL.md">Protocol v1</a> ·
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/registry/spec/manifest-chain-v2.md">chain-format spec</a>.</p>
   </div>
 </section>
 
@@ -503,36 +503,36 @@ curl -X POST https://api.koios.rest/api/v1/tx_metadata \
     <h2>Reference readers to copy from</h2>
     <table>
       <tr><th>Reader</th><th>Language</th><th>Best starting point for</th></tr>
-      <tr><td><a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/examples/the-reader/reader.html">the-reader (frozen)</a></td>
+      <tr><td><a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/examples/the-reader/reader.html">the-reader (frozen)</a></td>
           <td>Browser JS, one file, zero deps</td><td>Web readers — this exact file is minted on-chain (below)</td></tr>
-      <tr><td><a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/viewers/koios-cli/read_scroll.py">read_scroll.py</a></td>
+      <tr><td><a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/viewers/koios-cli/read_scroll.py">read_scroll.py</a></td>
           <td>Python, stdlib only, ~150 lines</td><td>Scripts, air-gapped verification</td></tr>
-      <tr><td><a href="https://github.com/BEACNpool/ledger-scrolls/tree/main/koios-viewer">koios-viewer (lsview)</a></td>
+      <tr><td><a href="https://github.com/BEACNLabs/ledger-scrolls/tree/main/koios-viewer">koios-viewer (lsview)</a></td>
           <td>Python package</td><td>Full tooling: every format, registry, catalogs</td></tr>
-      <tr><td><a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/index.html">The Library</a></td>
+      <tr><td><a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/index.html">The Library</a></td>
           <td>Browser JS, one file</td><td>The full experience: shelves, channels, trust log</td></tr>
     </table>
     <p style="margin-top:12px;font-size:15px">The complete written guide — CBOR decoding, datum shapes,
     failure semantics, endpoint independence:
-    <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/docs/BUILD_A_READER.md">docs/BUILD_A_READER.md</a>.</p>
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/docs/BUILD_A_READER.md">docs/BUILD_A_READER.md</a>.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="card">
     <h2>Prove it — the conformance suite</h2>
-    <p style="font-size:15px">The <a href="https://github.com/BEACNpool/ledger-scrolls/tree/main/conformance">conformance
+    <p style="font-size:15px">The <a href="https://github.com/BEACNLabs/ledger-scrolls/tree/main/conformance">conformance
     suite</a> is the contract: test vectors for hashing, deterministic gzip, both CBOR byte-string
     forms, segment variants, and pointer validity. Your thirty lines and ours can prove they agree:</p>
-<pre><code>git clone https://github.com/BEACNpool/ledger-scrolls
+<pre><code>git clone https://github.com/BEACNLabs/ledger-scrolls
 python3 ledger-scrolls/conformance/run_conformance.py   # or run_conformance.mjs</code></pre>
     <p style="font-size:15px;margin-top:10px">Then read something real — every
-    <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/docs/SCROLL_INVENTORY.md">live scroll</a>
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/docs/SCROLL_INVENTORY.md">live scroll</a>
     carries its expected hash. If your reader reconstructs the Eternal Scroll to
     <span class="mono">65824f62…47dd2</span>, it works.</p>
     <div class="note"><b>Stay independent:</b> a reader is only as free as its data source. Best:
     your own node + your own Koios instance. Good: any Koios-compatible provider, or a
-    <a href="https://github.com/BEACNpool/ledger-scrolls/tree/main/tools/cors-mirror">CORS mirror you
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/tree/main/tools/cors-mirror">CORS mirror you
     deploy yourself in two minutes</a>. Let the user pick the endpoint — an endpoint you don't
     control is a landlord.</div>
   </div>
@@ -550,11 +550,11 @@ python3 ledger-scrolls/conformance/run_conformance.py   # or run_conformance.mjs
     everyone who ever worked on this protocol disappear, the spec is two queries and a hash — and a
     working implementation is carved into the ledger it reads. The library holds its own pair of
     glasses. Receipts and the frozen source:
-    <a href="https://github.com/BEACNpool/ledger-scrolls/tree/main/examples/the-reader">examples/the-reader/</a>.</p>
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/tree/main/examples/the-reader">examples/the-reader/</a>.</p>
     <div class="note ok"><b>Why we retired the hosted reader page:</b> hosting a second viewer taught
     people to depend on our URL. The Library remains for browsing — but the reader's real home is the
     chain, and the real mission is a thousand independent readers. Build yours, and
-    <a href="https://github.com/BEACNpool/ledger-scrolls/blob/main/CONTRIBUTING.md">tell us about it</a>.</div>
+    <a href="https://github.com/BEACNLabs/ledger-scrolls/blob/main/CONTRIBUTING.md">tell us about it</a>.</div>
   </div>
 </section>
 
@@ -600,13 +600,13 @@ python3 ledger-scrolls/conformance/run_conformance.py   # or run_conformance.mjs
       <div class="ls-foot-col">
         <h4>Project</h4>
         <a href="../docs/PRODUCT.md">Product &amp; trust model</a>
-        <a href="https://github.com/BEACNpool/ledger-scrolls">Source &amp; specs</a>
+        <a href="https://github.com/BEACNLabs/ledger-scrolls">Source &amp; specs</a>
         <a href="../media.html">How it works</a>
       </div>
     </nav>
   </div>
   <div class="ls-foot-legal">
-    <a class="ls-foot-beacn" href="https://beacnpool.github.io/ABCDE/pool/" aria-label="BEACNpool legacy archive">
+    <a class="ls-foot-beacn" href="https://beacnlabs.github.io/ABCDE/pool/" aria-label="BEACNpool legacy archive">
       <img src="../brand/beacn-20260904.png" width="40" height="40" alt="" loading="lazy" decoding="async">
       <span>Maintained by BEACN</span>
     </a>

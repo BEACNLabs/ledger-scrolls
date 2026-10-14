@@ -34,7 +34,7 @@ Minted something cool? Share it!
 
 ### Reporting Bugs
 
-Found something broken? [Open an issue](https://github.com/BEACNpool/ledger-scrolls/issues/new) with:
+Found something broken? [Open an issue](https://github.com/BEACNLabs/ledger-scrolls/issues/new) with:
 
 - A clear title and description
 - Steps to reproduce the problem
@@ -44,7 +44,7 @@ Found something broken? [Open an issue](https://github.com/BEACNpool/ledger-scro
 
 ### Suggesting Features
 
-Have an idea? [Start a discussion](https://github.com/BEACNpool/ledger-scrolls/discussions) or open an issue:
+Have an idea? [Start a discussion](https://github.com/BEACNLabs/ledger-scrolls/discussions) or open an issue:
 
 - Describe the feature clearly
 - Explain why it would be valuable

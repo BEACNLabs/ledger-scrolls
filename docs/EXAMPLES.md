@@ -4,7 +4,7 @@ Every scroll below exists on the Cardano blockchain right now. Each links to
 a folder in [`examples/`](../examples/) with its exact source and
 `receipts.json`, and every pointer and hash is in
 [SCROLL_INVENTORY.md](SCROLL_INVENTORY.md). Read them in
-[The Library](https://beacnpool.github.io/ledger-scrolls/).
+[The Library](https://beacnlabs.github.io/ledger-scrolls/).
 
 Use them three ways: as **proof** (verify any of them yourself), as
 **templates** (copy the receipts and workflow), and as **inspiration**
@@ -116,7 +116,7 @@ as the first Chain Scroll. The document teaching you how scrolls work
 
 The first instrument in a signature-controlled legal docket: a numbered
 document token whose record can be pulled by anyone, forever, from the
-[Main Viewer](https://beacnpool.github.io/ledger-scrolls/#s=legal-0001).
+[Main Viewer](https://beacnlabs.github.io/ledger-scrolls/#s=legal-0001).
 
 → [`examples/legal-0001/`](../examples/legal-0001/) ·
 [how to create one](CREATING_LEGAL_RECORDS.md)
@@ -130,7 +130,7 @@ current text — stored on the chain they govern. Governance history that
 cannot be quietly revised.
 
 → [SCROLL_INVENTORY.md](SCROLL_INVENTORY.md) ·
-[open in The Library](https://beacnpool.github.io/ledger-scrolls/#s=constitution-e608)
+[open in The Library](https://beacnlabs.github.io/ledger-scrolls/#s=constitution-e608)
 
 ## 📖 The Bible — 237 pages
 
@@ -139,7 +139,7 @@ cannot be quietly revised.
 4.68 MB of HTML, gzipped and split across 237 page NFTs. If a book this
 size fits, your manifesto fits.
 
-→ [open in The Library](https://beacnpool.github.io/ledger-scrolls/#s=bible)
+→ [open in The Library](https://beacnlabs.github.io/ledger-scrolls/#s=bible)
 
 ## 🪙 The Bitcoin Whitepaper
 

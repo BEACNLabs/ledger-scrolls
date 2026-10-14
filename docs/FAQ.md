@@ -18,7 +18,7 @@ video, datasets. Best practices per type: [CREATING_SCROLLS.md](CREATING_SCROLLS
 **What does it cost?** Network fees, once — roughly **0.06 ADA per KB**,
 plus ~1.5 ADA locked forever with the manifest. A manifesto costs a coffee;
 a 5 MB video ≈ 380 ADA. Exact quote before you sign: the
-[cost calculator](https://beacnpool.github.io/ledger-scrolls/calculator.html).
+[cost calculator](https://beacnlabs.github.io/ledger-scrolls/calculator.html).
 No subscription, no renewal, no pinning bill, ever.
 
 ## Trust
@@ -93,7 +93,7 @@ testnet; the mistakes are free there.
 ## Practical
 
 **How do I read a scroll right now?**
-[The Library](https://beacnpool.github.io/ledger-scrolls/) in any browser —
+[The Library](https://beacnlabs.github.io/ledger-scrolls/) in any browser —
 or [reader.html](../examples/the-reader/reader.html) from a USB stick — or two `curl` commands
 ([BUILD_A_READER.md](BUILD_A_READER.md)).
 

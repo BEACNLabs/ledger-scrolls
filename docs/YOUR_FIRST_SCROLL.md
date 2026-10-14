@@ -140,6 +140,6 @@ Make it discoverable — do all three:
 - **Full reference:** [CREATING_SCROLLS.md](CREATING_SCROLLS.md) ·
   [GETTING_STARTED.md](GETTING_STARTED.md) ·
   [Chain Scroll spec](../registry/spec/manifest-chain-v2.md)
-- **Ask:** open a [GitHub Discussion](https://github.com/BEACNpool/ledger-scrolls/discussions).
+- **Ask:** open a [GitHub Discussion](https://github.com/BEACNLabs/ledger-scrolls/discussions).
 
 *Mint deliberately. The library cannot burn — and it cannot forget.*
